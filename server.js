@@ -24,10 +24,10 @@ var clientID = 'YOUR_CLIENT_ID',
 /**
  * Set the configuration
  */
-Instagram.set('client_id', clientID);
-Instagram.set('client_secret', clientSecret);
-Instagram.set('callback_url', 'http://YOUR_URL.com/callback');
-Instagram.set('redirect_uri', 'http://YOUR_URL.com');
+Instagram.set('client_id', aa4554935aa24104a64822a0ca6073e3);
+Instagram.set('client_secret', 76a78d7894934fdc98999e599939ae70);
+Instagram.set('callback_url', 'http://clairesunstudio.github.io/selfie/callback');
+Instagram.set('redirect_uri', 'http://clairesunstudio.github.io/selfie');
 Instagram.set('maxSockets', 10);
 
 /**
@@ -37,7 +37,7 @@ Instagram.set('maxSockets', 10);
  */
 Instagram.subscriptions.subscribe({
   object: 'tag',
-  object_id: 'lollapalooza',
+  object_id: 'blue',
   aspect: 'media',
   callback_url: 'http://YOUR_URL.com/callback',
   type: 'subscription',
